@@ -35,7 +35,7 @@ def find_lowest_cost_node(costs):
             lowest_cost = cost
             lowest_cost_node = node
     return lowest_cost_node
-    
+
 graph = {}
 graph["start"] = {}
 graph["start"]["a"] = 6
@@ -71,3 +71,6 @@ while node is not None:
 
 
 print(graph)
+
+states_needed = set (["mt", "wa", "or", "id", "nv", "ut", "са", "az"])
+arr = [1, 2, 2, 3, 3, 3]
